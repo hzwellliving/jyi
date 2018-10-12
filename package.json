@@ -1,0 +1,26 @@
+{
+  "name": "jyi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hzwellliving/jyi.git",
+  "author": "xiechao06 <xiechao06@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --watch"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "fs-extra": "^7.0.0",
+    "ini": "^1.3.5",
+    "js-yaml": "^3.12.0"
+  }
+}
